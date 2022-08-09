@@ -1,0 +1,38 @@
+.vegetables {
+  margin-top: 8.5rem;
+}
+
+.vegetables__container {
+  row-gap: 1.5rem;
+}
+
+@media screen and (min-width: 575.98px) {
+  .vegetables {
+    margin-top: 7rem;
+  }
+
+  .vegetables__container {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .section__title,
+  .section__subtitle {
+    text-align: center;
+  }
+
+  .section__subtitle {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 767.98px) {
+  .vegetables__container {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+}
+
+@media screen and (min-width: 991.98px) {
+  .vegetables {
+    margin: 7rem auto 0;
+  }
+}

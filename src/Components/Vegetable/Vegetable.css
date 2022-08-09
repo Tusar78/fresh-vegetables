@@ -1,0 +1,70 @@
+.vegetable {
+  max-width: 18rem;
+  border: 1px solid var(--light-color);
+  border-radius: 0.25rem;
+  padding: 1rem;
+  justify-self: center;
+}
+
+.vegetable__img {
+  width: 254px;
+  height: 254px;
+  object-fit: contain;
+}
+
+.vegetable__name {
+  font-size: var(--h2-font-size);
+  color: var(--first-color-dark);
+  letter-spacing: 2px;
+  margin: 0 0 0.625rem;
+}
+
+.vegetable__need {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #9f9f9f;
+}
+
+.vegetable__price {
+  font-size: 1.125rem;
+  color: var(--second-color);
+  font-weight: var(--font-medium);
+}
+
+.vegetable__btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid var(--light-color);
+  border-radius: 0.25rem;
+  font-size: var(--normal-font-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn--green {
+  background-color: var(--first-color);
+  color: var(--lighter-color);
+  border-color: var(--first-color);
+}
+
+@media screen and (min-width: 575.98px) {
+  .section__title {
+    font-size: calc(var(--h2-font-size) + .25rem);
+  }
+}
+
+
+@media screen and (min-width: 767.98px) {
+  .vegetable__name {
+    font-size: calc(var(--h2-font-size) - 0.5rem);
+  }
+
+  .section__title {
+    font-size: var(--h2-font-size);
+  }
+}

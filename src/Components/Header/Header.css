@@ -1,0 +1,129 @@
+/* Navigation Design */
+.navbar {
+  width: 100%;
+  background-color: var(--white-color);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: calc(var(--z-fixed) + 100);
+}
+
+.nav {
+  height: calc(var(--header-height) + 3rem);
+  padding: 0.25rem 0;
+}
+
+.nav__logo {
+  width: 120px;
+  height: auto;
+}
+
+@media screen and (max-width: 575.98px) {
+  .nav__menu {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+  }
+}
+
+.nav__list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav__icon {
+  font-size: 1.2rem;
+  color: var(--first-color);
+}
+
+.nav__search {
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+  display: flex;
+  height: 39px;
+}
+
+.nav__search-text {
+  width: 100%;
+  padding: 0.625rem 1rem;
+  border: 1px solid var(--light-color);
+  border-right-width: 0px;
+  border-radius: 0.2rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  outline: none;
+}
+
+.nav__search-btn {
+  padding: 0.625rem 1.5rem;
+  border: 1px solid var(--first-color);
+  border-left-width: 0px;
+  border-radius: 0.2rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn--green {
+  background-color: var(--first-color);
+  color: var(--white-color);
+}
+
+.added__item {
+  position: relative;
+  cursor: pointer;
+}
+
+.added__item-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15px;
+  right: -12px;
+  width: 21px;
+  height: 21px;
+  border-radius: .25rem;
+  background-color: rgba(0, 0, 0, .1);
+  font-weight: var(--font-medium);
+}
+
+/* Going to be big screen */
+@media screen and (min-width: 575.98px) {
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column-gap: 1rem;
+    align-items: center;
+  }
+
+  .nav__list {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 0.25rem;
+  }
+
+  .nav__search {
+    margin-top: 0;
+  }
+
+  .nav__menu {
+    justify-self: end;
+  }
+}
+
+@media screen and (min-width: 991.98px) {
+  .nav {
+    margin: 0 auto;
+  }
+
+  .nav__list {
+    gap: 2rem;
+  }
+
+  .nav__icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
