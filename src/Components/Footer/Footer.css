@@ -77,4 +77,16 @@
   .copyright {
     margin: 0 auto;
   }
+
+  .footer {
+    padding-bottom: var(--mb-3);
+  }
+
+  .copyright__text {
+    text-transform: uppercase;
+    font-weight: 300;
+    /* color: #6e6e6e; */
+    padding-right: var(--mb-2);
+    padding-left: var(--mb-2);
+  }
 }
