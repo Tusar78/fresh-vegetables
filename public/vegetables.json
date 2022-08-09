@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Yellow Capsicum",
+    "weight": "300 gm",
+    "price": 139,
+    "img": "https://chaldn.com/_mpimage/yellow-capsicum-15-gm-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D16552&q=low&v=1&m=400&webp=1",
+    "description": "Capsicum known as a sweet peppers. Sweet peppers are fruit pods on the capsicum plant grown for their subtle hotness yet sweet, delicate peppery flavor they extend to the recipes. Yellow capsicum contains an impressive list of plant nutrients that found to have disease preventing and health promoting properties. Unlike in other fellow chili peppers, it has very less calories and fats. 100 g provides just 31 calories. It also contains Vitamin C and Vitamin E."
+  },
+  {
+    "id": "2",
+    "name": "Red Tomato",
+    "weight": "500 gm",
+    "price": 55,
+    "img": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=low&v=1&m=400&webp=1",
+    "description": "The tomato is consumed in diverse ways, including raw, as an ingredient in many dishes, sauces, salads, and drinks. While it is botanically a fruit, it is considered a vegetable for culinary purposes. The fruit is rich in lycopene, which may have beneficial health effects."
+  },
+  {
+    "id": "3",
+    "name": "Deshi Peyaj",
+    "weight": "1 kg",
+    "price": 45,
+    "img": "https://chaldn.com/_mpimage/deshi-peyaj-local-onion-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D52358&q=low&v=1&m=400&webp=1",
+    "description": "Though all vegetables are important for health, certain kinds offer unique benefits. Onions are members of the Allium genus of flowering plants that also includes garlic, shallots, leeks and chives. These vegetables contain various vitamins, minerals and potent plant compounds that have been shown to promote health in many ways. In fact, the medicinal properties of onions have been recognized since ancient times, when they were used to treat ailments like headaches, heart disease and mouth sores."
+  },
+  {
+    "id": "4",
+    "name": "Roshun",
+    "weight": "500 gm",
+    "price": 69,
+    "img": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1&m=400&webp=1",
+    "description": "Garlic is an excellent source of minerals and vitamins that are essential for optimum health. The bulbs are one of the richest sources of potassium, iron, calcium, magnesium, manganese, zinc, and selenium. Selenium is a heart-healthy mineral, and is an important cofactor for antioxidant enzymes within the body."
+  },
+  {
+    "id": "5",
+    "name": "Lal Shak",
+    "weight": "1 bundle",
+    "price": 19,
+    "img": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1&m=400&webp=1",
+    "description": "Red Spinach is common vegetable in Bangladesh. Its leaves are usually round, thick, and rich green in color, but has a bright red colored central stem. The leaves and stems of red spinach contain a red liquid. This has a sweet, raw flavor and the texture is very delicate. Red spinach helps in the process of bowel movement since it contains a lot of fiber. This fibrous food helps in proper digestion and is useful for curing colon cancer, diabetes, cholesterol as well as for weight loss. Red spinach can be eaten in many ways. They can be consumed either raw or cooked. You can sauté them, use as salad leaves, mix in vegetables, fruits, eggs, nuts, pasta or cheese. This is used widely in Indian recipes with added flavors of spices, ginger, garlic, onions, creams, and chilies. You can also store them dry and refrigerated for about one to two weeks.This is all about red spinach recipe!"
+  },
+  {
+    "id": "6",
+    "name": "Gajor",
+    "weight": "600 gm",
+    "price": 89,
+    "img": "https://chaldn.com/_mpimage/gajor-imported-carrot-30-gm-600-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D78085&q=low&v=1&m=400&webp=1",
+    "description": "No description"
+  },
+  {
+    "id": "7",
+    "name": "Pudina Pata",
+    "weight": "100 gm",
+    "price": 35,
+    "img": "https://chaldn.com/_mpimage/pudina-pata-mint-leaves-10-gm-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7827&q=low&v=1&m=400&webp=1",
+    "description": "With its distinctively spicy taste and invigorating scent, mint is often an ingredient in gum, candy or tea, but people also eat it fresh. Fresh mint leaves add flavor and nutrition to many different recipes, and chewing on whole leaves may have certain health benefits and ward off some medical conditions. Fresh mint, including spearmint and peppermint, contains several key vitamins and minerals you need for good health. Mint leaves also contains mint contains trace amounts of iron, a mineral you need to make red blood cells. Mint also has small amounts of fiber, vitamin A and potassium."
+  },
+  {
+    "id": "8",
+    "name": "Jali Kumra",
+    "weight": "each",
+    "price": 55,
+    "img": "https://chaldn.com/_mpimage/jali-kumra-water-pumpkin-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69932&q=low&v=1&m=400&webp=1",
+    "description": "Water Pumpkin vegetable is one of the widely grown vegetables incredibly rich in vital antioxidants, and vitamins. Though this humble backyard vegetable is less in calories, nonetheless, it carries vitamin A, and flavonoid poly-phenolic antioxidants such as lutein, xanthin, and carotenes in abundance. water Pumpkin is a storehouse of many anti-oxidant vitamins such as vitamin-A, vitamin-C and vitamin-E."
+  },
+  {
+    "id": "9",
+    "name": "Aloe Vera",
+    "weight": "each",
+    "price": 35,
+    "img": "https://chaldn.com/_mpimage/aloe-vera-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D35684&q=best&v=1&m=400&webp=1",
+    "description": "Each leaf is full of a slimy tissue that stores water, which makes the leaves thick. This slimy, water-filled tissue is the “gel” we associate with Aloevera products. The gel contains most of the bio-active compounds in the plant, including vitamins, minerals, amino acids and antioxidants."
+  },
+  {
+    "id": "10",
+    "name": "Boro Alu",
+    "weight": "1 kg",
+    "price": 35,
+    "img": "https://chaldn.com/_mpimage/boro-alu-big-diamond-potato-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79694&q=low&v=1&m=400&webp=1",
+    "description": "Potato is a very healthy food and popular vegetable all over the world. Potatoes are available year-round as they are harvested somewhere every month of the year. potato's have lots of variety. these Potatoes are comparatively bigger than regular Potatoes. potatoes contain a goodly amount of carbohydrate (starch and sugar) they are also a storehouse for many vitamins and minerals. With the exception of vitamin A, potatoes have at least some of just about every nutrient, including fiber. Potatoes are relatively low in calories."
+  },
+  {
+    "id": "11",
+    "name": "Shosha",
+    "weight": "500 gm",
+    "price": 35,
+    "img": "https://chaldn.com/_mpimage/shosha-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64357&q=low&v=1&m=400&webp=1",
+    "description": "Locally sourced.Few foods are as cool as a cucumber.While most people think of cucumbers as vegetables, they are actually a fruit.Cucumbers are naturally low in calories, carbohydrates, sodium, fat and cholesterol & hydrating properties."
+  },
+  {
+    "id": "12",
+    "name": "Lomba Kalo Begun",
+    "weight": "200 gm",
+    "price": 35,
+    "img": "https://chaldn.com/_mpimage/lomba-kalo-begun-long-brinjal-black-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D43558&q=low&v=1&m=400&webp=1",
+    "description": "Brinjals are mildly sweet, moist and never bitter. Because of their small size, the silky flesh is especially tender and will cook quickly. Try them sliced, brushed with olive oil and salt, and grilled or roasted. They also make a great addition to curries and stir-fries. It contains good amounts of many essential B-complex groups of vitamins such as pantothenic acid (vitamin B5), pyridoxine (vitamin B6) and thiamin (vitamin B1), niacin (B3). These vitamins are essential in the sense that body requires them from external sources to replenish and required for fat, protein and carbohydrate metabolism."
+  }
+]
