@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Global.css";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -57,6 +58,7 @@ function App() {
     <>
       <Header toggleCartFunc={toggleCartFunc} vegetables={vegetables} />
       <Main toggle={toggle} addToCart={addToCart} vegetables={vegetables} chooseAgain={chooseAgain} choose={choose} chooseOne={chooseOne} deleteProduct={deleteProduct} randomDeleteProduct={randomDeleteProduct} />
+      <Footer />
     </>
   );
 }
