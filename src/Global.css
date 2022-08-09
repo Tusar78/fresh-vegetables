@@ -1,0 +1,138 @@
+/* Variables */
+:root {
+  --header-height: 3rem;
+  --font-semi: 500;
+  --font-medium: 600;
+
+  /* colors */
+  --first-color: #8bc441;
+  --first-color-dark: #33491e;
+  --danger-color: #ff5252;
+  --second-color: #0e2431;
+  --light-color: #ddd;
+  --lighter-color: #f5faeb;
+  --white-color: #fff;
+
+  /* font & typography */
+  --body-font: "Source Sans Pro", sans-serif;
+  --heading-font: "Playfair Display", serif;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+
+  /* Margin */
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /* z-index */
+  --z-back: -10;
+  --z-normal: 1;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/* Base */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--second-color);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font);
+}
+
+input,
+textarea,
+button {
+  font-family: var(--body-font);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reuseable Class */
+.section {
+  padding-top: var(--mb-6);
+  padding-bottom: var(--mb-4);
+}
+
+/* Layout */
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+.section__title {
+  font-size: var(--h2-font-size);
+  color: var(--second-color);
+  font-weight: var(--font-semi);
+}
+
+.section__subtitle {
+  font-size: var(--normal-font-size);
+  color: var(--first-color);
+  letter-spacing: 4px;
+  margin-bottom: var(--mb-2);
+}
+
+.btn--green {
+  background-color: var(--first-color);
+  border: 1px solid var(--first-color);
+  color: var(--lighter-color);
+  transition: .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.btn--danger {
+  background-color: var(--danger-color);
+  border: 1px solid var(--danger-color);
+  color: var(--lighter-color);
+  transition: .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
