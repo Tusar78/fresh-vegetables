@@ -1,0 +1,22 @@
+.footer {
+  margin-top: var(--mb-4);
+  padding-top: var(--mb-4);
+  background-color: rgb(243 243 243 / 50%);
+}
+
+.contact__logo {
+  width: 160px;
+  justify-self: center;
+  margin-bottom: var(--mb-2);
+}
+
+.contact__info {
+  text-align: center;
+}
+
+.contact__address {
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
+  color: #a5a5a5;
+  font-weight: 400;
+}

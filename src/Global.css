@@ -94,7 +94,8 @@ img {
 }
 
 /* Reuseable Class */
-.section {
+.section,
+.footer {
   padding-top: var(--mb-6);
   padding-bottom: var(--mb-4);
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaGithub, FaYoutube } from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -51,12 +52,20 @@ const Footer = () => {
         <div className="copyright bd-grid">
           <p className="copyright__text">&copy; All Rights Reserved</p>
           <p className="copyright__text">
-            <a href="https://facebook.com/tus78ar" target="blank" className="copyright__text-link">
+            <a
+              href="https://facebook.com/tus78ar"
+              target="blank"
+              className="copyright__text-link"
+            >
               Tusar
             </a>
           </p>
           <p className="copyright__text">
-            <a href="https://facebook.com/innoteach78" target="blank" className="copyright__text-link">
+            <a
+              href="https://facebook.com/innoteach78"
+              target="blank"
+              className="copyright__text-link"
+            >
               InnovationTeach
             </a>
           </p>
