@@ -1,7 +1,8 @@
 .footer {
   margin-top: var(--mb-4);
   padding-top: var(--mb-4);
-  background-color: rgb(243 243 243 / 50%);
+  padding-bottom: var(--mb-2);
+  background-color: rgb(243 243 243 / 70%);
 }
 
 .contact__logo {
@@ -19,4 +20,53 @@
   margin-bottom: var(--mb-1);
   color: #a5a5a5;
   font-weight: 400;
+}
+
+.contact__social {
+  margin-top: var(--mb-4);
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.contact__social-icon {
+  font-size: 1.2rem;
+  color: var(--second-color);
+  cursor: pointer;
+}
+
+.copyright-container {
+  margin-top: var(--mb-2);
+  border-top: 1px solid var(--light-color);
+}
+
+.copyright__info {
+  padding-top: var(--mb-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright__text {
+  font-size: var(--normal-font-size);
+  color: #a5a5a5;
+  border-right: 1px solid #a5a5a5;
+  padding-right: var(--mb-1);
+  padding-left: var(--mb-1);
+}
+
+.copyright__text-link {
+  color: #a5a5a5;
+}
+
+.copyright__text-link:hover {
+  text-decoration: underline;
+}
+
+.copyright__text:first-child{
+  padding-left: 0;
+}
+
+.copyright__text:last-child {
+  border-right: 0;
 }

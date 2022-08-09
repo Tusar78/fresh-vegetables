@@ -50,25 +50,27 @@ const Footer = () => {
       </div>
       <div className="copyright-container">
         <div className="copyright bd-grid">
-          <p className="copyright__text">&copy; All Rights Reserved</p>
-          <p className="copyright__text">
-            <a
-              href="https://facebook.com/tus78ar"
-              target="blank"
-              className="copyright__text-link"
-            >
-              Tusar
-            </a>
-          </p>
-          <p className="copyright__text">
-            <a
-              href="https://facebook.com/innoteach78"
-              target="blank"
-              className="copyright__text-link"
-            >
-              InnovationTeach
-            </a>
-          </p>
+          <div className="copyright__info">
+            <p className="copyright__text">&copy; All Rights Reserved</p>
+            <p className="copyright__text">
+              <a
+                href="https://facebook.com/tus78ar"
+                target="blank"
+                className="copyright__text-link"
+              >
+                Tusar
+              </a>
+            </p>
+            <p className="copyright__text">
+              <a
+                href="https://facebook.com/innoteach78"
+                target="blank"
+                className="copyright__text-link"
+              >
+                InnovationTeach
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
