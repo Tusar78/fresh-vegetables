@@ -3,6 +3,7 @@ import "./Global.css";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
+import { addToLocalStorage } from "./Components/Utils/Utils";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -28,6 +29,8 @@ function App() {
     } else {
       alert(`You can't buy the same item!`);
     }
+
+    addToLocalStorage(selectedVegetable.id)
   };
 
   const chooseOne = () => {
