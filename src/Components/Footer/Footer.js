@@ -10,7 +10,7 @@ const Footer = () => {
           <img src="logo.png" alt="Website logo" className="contact__logo" />
 
           <div className="contact__info">
-            <p className="contact__address">Kushtia, Khulna, BD</p>
+            <p className="contact__address">Kushtia, Khulna, Bangladesh</p>
             <p className="contact__address">
               tusar.cse78@gmail.com, (+880)1741-262945, WhatsApp [Tusar]
             </p>
