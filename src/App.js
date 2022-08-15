@@ -15,7 +15,7 @@ function App() {
     fetch('vegetables.json')
       .then(res => res.json())
       .then(data => setLoadVegetables(data))
-  }, [loadVegetables])
+  }, [])
   
   const toggleCartFunc = (toggleCartState) => {
     setToggle(toggleCartState);
@@ -43,9 +43,9 @@ function App() {
   useEffect(() => {
     const storedVegetablesIds = getLocalStorage();
     for (const id in storedVegetablesIds) {
-      console.log(id);
+      // console.log(id);
       const storedVegetables= vegetables.find(vegetable => vegetable.id == id);
-      console.log(storedVegetables);
+      // console.log(storedVegetables);
     }
   }, [vegetables])
 
@@ -64,6 +64,7 @@ function App() {
   const deleteProduct = (deletedVegetable) => {
     const deleted = vegetables.filter(vegetable => vegetable.id !== deletedVegetable.id)  
     setVegetables(deleted)
+    console.log('Hello World!');
   }
 
   const randomDeleteProduct = (deletedChoose) => {
@@ -71,6 +72,7 @@ function App() {
     if (randomDeleted) {
       setChoose([])
     }
+    console.log('Hello World!');
   }
 
   return (
