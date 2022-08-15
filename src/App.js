@@ -42,12 +42,16 @@ function App() {
   
   useEffect(() => {
     const storedVegetablesIds = getLocalStorage();
+    const newStored = [];
     for (const id in storedVegetablesIds) {
-      // console.log(id);
-      const storedVegetables= vegetables.find(vegetable => vegetable.id == id);
-      // console.log(storedVegetables);
+      const storedVegetables= loadVegetables.find(vegetable => vegetable.id === id);
+      if (storedVegetables) {
+        newStored.push(storedVegetables)   
+      }
     }
-  }, [vegetables])
+    console.log(newStored);
+    setVegetables(newStored);
+  }, [loadVegetables])
 
   const chooseOne = () => {
     const selectedItem = vegetables.length;
@@ -72,7 +76,6 @@ function App() {
     if (randomDeleted) {
       setChoose([])
     }
-    console.log('Hello World!');
   }
 
   return (
