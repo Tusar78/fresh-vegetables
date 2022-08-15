@@ -1,14 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Global.css";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
-import { addToLocalStorage } from "./Components/Utils/Utils";
+import { addToLocalStorage, getLocalStorage } from "./Components/Utils/Utils";
 
 function App() {
   const [toggle, setToggle] = useState(false);
+  const [loadVegetables, setLoadVegetables] = useState([]);
   const [vegetables, setVegetables] = useState([]);
   const [choose, setChoose] = useState([]);
+
+  useEffect(() => {
+    fetch('vegetables.json')
+      .then(res => res.json())
+      .then(data => setLoadVegetables(data))
+  }, [loadVegetables])
   
   const toggleCartFunc = (toggleCartState) => {
     setToggle(toggleCartState);
@@ -32,6 +39,15 @@ function App() {
 
     addToLocalStorage(selectedVegetable.id)
   };
+  
+  useEffect(() => {
+    const storedVegetablesIds = getLocalStorage();
+    for (const id in storedVegetablesIds) {
+      console.log(id);
+      const storedVegetables= vegetables.find(vegetable => vegetable.id == id);
+      console.log(storedVegetables);
+    }
+  }, [vegetables])
 
   const chooseOne = () => {
     const selectedItem = vegetables.length;
@@ -60,7 +76,7 @@ function App() {
   return (
     <>
       <Header toggleCartFunc={toggleCartFunc} vegetables={vegetables} />
-      <Main toggle={toggle} addToCart={addToCart} vegetables={vegetables} chooseAgain={chooseAgain} choose={choose} chooseOne={chooseOne} deleteProduct={deleteProduct} randomDeleteProduct={randomDeleteProduct} />
+      <Main toggle={toggle} addToCart={addToCart} vegetables={vegetables} chooseAgain={chooseAgain} choose={choose} chooseOne={chooseOne} deleteProduct={deleteProduct} randomDeleteProduct={randomDeleteProduct} loadVegetables={loadVegetables} />
       <Footer />
     </>
   );

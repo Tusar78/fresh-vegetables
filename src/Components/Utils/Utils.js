@@ -23,4 +23,4 @@ const addToLocalStorage = (id) => {
   localStorage.setItem('vegetables', JSON.stringify(vegetables));
 }
 
-export {addToLocalStorage}
+export {addToLocalStorage, getLocalStorage}
