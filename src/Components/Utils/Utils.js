@@ -23,4 +23,8 @@ const addToLocalStorage = (id) => {
   localStorage.setItem('vegetables', JSON.stringify(vegetables));
 }
 
-export {addToLocalStorage, getLocalStorage}
+const removeLocalStorageData = () => {
+  localStorage.removeItem('vegetables');
+}
+
+export {addToLocalStorage, getLocalStorage, removeLocalStorageData}

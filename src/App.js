@@ -3,7 +3,7 @@ import "./Global.css";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
-import { addToLocalStorage, getLocalStorage } from "./Components/Utils/Utils";
+import { addToLocalStorage, getLocalStorage, removeLocalStorageData } from "./Components/Utils/Utils";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -49,7 +49,6 @@ function App() {
         newStored.push(storedVegetables)   
       }
     }
-    console.log(newStored);
     setVegetables(newStored);
   }, [loadVegetables])
 
@@ -63,6 +62,7 @@ function App() {
   const chooseAgain = () => {
     setVegetables([])
     setChoose([])
+    removeLocalStorageData()
   }
 
   const deleteProduct = (deletedVegetable) => {
